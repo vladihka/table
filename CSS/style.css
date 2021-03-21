@@ -1,0 +1,255 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  padding: 0px 15px;
+  margin: 0px auto;
+}
+@media (min-width: 1230px) {
+  .container {
+    width: calc(640px + 490 * (100vw - 320px) /1100);
+  }
+}
+@media (max-width: 1230px) {
+  .container {
+    width: calc(640px + 490 * (100vw - 320px) /1100);
+  }
+}
+
+body {
+  margin: 0;
+  background: #f4f1f8;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+table {
+  border-collapse: collapse;
+  line-height: 1.1;
+  background: radial-gradient(farthest-corner at 50% 50%, white, #dcecf8);
+  color: #0c213b;
+}
+@media (min-width: 1230px) {
+  table {
+    width: calc(610px + 490 * (100vw - 320px) /1100);
+  }
+}
+@media (max-width: 1230px) {
+  table {
+    width: calc(610px + 490 * (100vw - 320px) /1100);
+  }
+}
+
+caption {
+  font-family: annabelle, cursive;
+  font-weight: bold;
+  color: #f3cd26;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+}
+@media (max-width: 767px) {
+  caption {
+    font-size: calc(15px + 25.5 * ((100vw - 320px) / 1100));
+  }
+}
+@media (min-width: 767px) {
+  caption {
+    font-size: calc(15px + 15 * (100vw / 1100));
+  }
+}
+@media (min-width: 1230px) {
+  caption {
+    padding-top: calc(5px + 5 * (100vw - 320px) /1100);
+  }
+}
+@media (max-width: 1230px) {
+  caption {
+    padding-top: calc(5px + 5 * (100vw - 320px) /1100);
+  }
+}
+@media (min-width: 1230px) {
+  caption {
+    padding-bottom: calc(5px + 5 * (100vw - 320px) /1100);
+  }
+}
+@media (max-width: 1230px) {
+  caption {
+    padding-bottom: calc(5px + 5 * (100vw - 320px) /1100);
+  }
+}
+@media (min-width: 1230px) {
+  caption {
+    padding-right: calc(5px + 5 * (100vw - 320px) /1100);
+  }
+}
+@media (max-width: 1230px) {
+  caption {
+    padding-right: calc(5px + 5 * (100vw - 320px) /1100);
+  }
+}
+@media (min-width: 1230px) {
+  caption {
+    padding-left: calc(5px + 5 * (100vw - 320px) /1100);
+  }
+}
+@media (max-width: 1230px) {
+  caption {
+    padding-left: calc(5px + 5 * (100vw - 320px) /1100);
+  }
+}
+
+th {
+  border: 1px solid #a9e2cc;
+}
+@media (min-width: 1230px) {
+  th {
+    padding-top: calc(5px + 5 * (100vw - 320px) /1100);
+  }
+}
+@media (max-width: 1230px) {
+  th {
+    padding-top: calc(5px + 5 * (100vw - 320px) /1100);
+  }
+}
+@media (min-width: 1230px) {
+  th {
+    padding-bottom: calc(5px + 5 * (100vw - 320px) /1100);
+  }
+}
+@media (max-width: 1230px) {
+  th {
+    padding-bottom: calc(5px + 5 * (100vw - 320px) /1100);
+  }
+}
+@media (min-width: 1230px) {
+  th {
+    padding-right: calc(5px + 5 * (100vw - 320px) /1100);
+  }
+}
+@media (max-width: 1230px) {
+  th {
+    padding-right: calc(5px + 5 * (100vw - 320px) /1100);
+  }
+}
+@media (min-width: 1230px) {
+  th {
+    padding-left: calc(5px + 5 * (100vw - 320px) /1100);
+  }
+}
+@media (max-width: 1230px) {
+  th {
+    padding-left: calc(5px + 5 * (100vw - 320px) /1100);
+  }
+}
+
+td {
+  padding: 5px 7px;
+  border: 1px solid #a9e2cc;
+}
+@media (max-width: 767px) {
+  td {
+    font-size: calc(8px + 13.6 * ((100vw - 320px) / 1100));
+  }
+}
+@media (min-width: 767px) {
+  td {
+    font-size: calc(8px + 8 * (100vw / 1100));
+  }
+}
+
+.first {
+  font-weight: bold;
+  text-align: center;
+}
+@media (max-width: 767px) {
+  .first {
+    font-size: calc(10px + 17 * ((100vw - 320px) / 1100));
+  }
+}
+@media (min-width: 767px) {
+  .first {
+    font-size: calc(10px + 10 * (100vw / 1100));
+  }
+}
+
+.table_orange {
+  background: rgba(254, 174, 26, 0.8);
+}
+
+.table_red {
+  background: rgba(254, 0, 2, 0.2);
+}
+
+.table_white {
+  background: rgba(197, 195, 194, 0.1);
+}
